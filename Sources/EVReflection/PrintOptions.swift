@@ -23,7 +23,7 @@ public struct PrintOptions: OptionSet, CustomStringConvertible {
     public init(rawValue: Int) { self.rawValue = rawValue }
     
     /// No print
-    public static let None = PrintOptions(rawValue: 0)
+	public static let None = PrintOptions([])
     /// print array init uknown keypath
     public static let UnknownKeypath = PrintOptions(rawValue: 1)
     /// print EIncorrectKey

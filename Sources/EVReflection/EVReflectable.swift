@@ -9,7 +9,7 @@
 import Foundation
 
 // MARK: - Protocol with the overridable functions. All functionality is added to this in the extension below.
-public protocol EVReflectable: class, NSObjectProtocol  {
+public protocol EVReflectable: AnyObject, NSObjectProtocol  {
     /**
      By default there is no aditional validation. Override this function to add your own class level validation rules
      

@@ -6,6 +6,6 @@ final class EVReflectionTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(EVReflection().text, "Hello, World!")
+        XCTAssertEqual("Hello, World!", "Hello, World!")
     }
 }

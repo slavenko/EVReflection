@@ -23,7 +23,7 @@ public struct ConversionOptions: OptionSet, CustomStringConvertible {
     public init(rawValue: Int) { self.rawValue = rawValue }
     
     /// No conversion options
-    public static let None = ConversionOptions(rawValue: 0)
+	public static let None = ConversionOptions([])
     /// Execute property converters
     public static let PropertyConverter = ConversionOptions(rawValue: 1)
     /// Execute property mapping

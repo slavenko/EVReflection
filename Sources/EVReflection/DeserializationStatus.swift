@@ -22,7 +22,7 @@ public struct DeserializationStatus: OptionSet, CustomStringConvertible {
     public init(rawValue: Int) { self.rawValue = rawValue }
     
     /// No status message
-    public static let None = DeserializationStatus(rawValue: 0)
+	public static let None = DeserializationStatus([])
     /// Incorrect key error
     public static let IncorrectKey  = DeserializationStatus(rawValue: 1)
     /// Missing key error
