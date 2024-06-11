@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "EVReflection"
-  spec.version      = "5.10.4"
+  spec.version      = "5.10.5"
   spec.summary      = "A short description of EVReflection."
 
   # This description is used to generate tags and improve search results.
